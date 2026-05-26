@@ -1,0 +1,13 @@
+streamlit
+opencv-python
+numpy
+pandas
+deepface
+supabase
+bcrypt
+segno
+pillow
+librosa
+scikit-learn
+setuptools<70
+
