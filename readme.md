@@ -1,8 +1,9 @@
 # 🎯 AI Attendance System
 
-An AI-powered Attendance Management System built using **Python, Streamlit, DeepFace, OpenCV, and Supabase** for real-time face recognition and automated attendance tracking.
+An AI-powered Attendance Management System built using Python, Streamlit, DeepFace, OpenCV, TensorFlow, and Supabase for real-time face recognition and automated attendance tracking. The system enables secure student authentication, intelligent attendance marking, and seamless database management with a modern interactive UI. Successfully deployed on Render with cloud-based hosting and integrated AI-driven facial recognition capabilities.
 
-
+🌐 Live Demo:
+https://ai-attendance-system-fxhl.onrender.com
 
 ## 🚀 Features
 
