@@ -133,16 +133,16 @@ def student_screen():
                         st.session_state.is_logged_in = True
                         st.session_state.user_role = 'student'
                         st.session_state.student_data = student
-                        st.toast(f'Welcome Back {student['name']}')
+                        st.toast(f"Welcome Back {student['name']}!")
                         time.sleep(1)
                         st.rerun()
                 else:
-                    st.info('Face not recognized! You might be a new student!')
+                    st.info("Face not recognized! You might be a new student!")
                     show_registration = True
     if show_registration:
         with st.container(border=True):
             st.header('Register new Profile')
-            new_name = st.text_input("Enter your name", placeholder='E.g. Hamza Rizvi')
+            new_name = st.text_input("Enter your name", placeholder='E.g. Vishal Yadav')
 
             st.subheader('Optional : Voice Enrollment')
             st.info("Enroll your for voice only attendance")
